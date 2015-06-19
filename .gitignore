@@ -24,3 +24,8 @@ Temporary Items
 
 ### Sass ###
 .sass-cache
+
+### Linux ###
+
+# Backup Files
+*.*~
