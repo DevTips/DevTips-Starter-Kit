@@ -1314,6 +1314,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/2-basics\/_example-buttons.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/_example-buttons.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_example-buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/2-basics\/_links.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1355,6 +1371,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/2-basics\/_typography.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/3-modules\/_example-flex-video.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-modules\/_example-flex-video.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_example-flex-video.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1410,15 +1442,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/css\/_body-element.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/css\/_body-element.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1444,13 +1467,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/img\/thumbnail.jpg": {
+	"\/assets\/img\/starter-kit-cover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 223741,
-		"inputAbbreviatedPath": "\/assets\/img\/thumbnail.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/thumbnail.jpg",
+		"initialSize": 483410,
+		"inputAbbreviatedPath": "\/assets\/img\/starter-kit-cover.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/starter-kit-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tools.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.25433e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/tools.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tools.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
