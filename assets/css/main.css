@@ -10,6 +10,12 @@
   font-weight: 700;
   src: local("Fira Sans Bold"), local("FiraSans-Bold"), url(http://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fira Mono"), local("FiraMono"), url(http://fonts.gstatic.com/s/firamono/v3/SlRWfq1zeqXiYWAN-lnG-pBw1xU1rKptJj_0jans920.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -269,8 +275,53 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+  .button:hover, .button:active, .button:focus,
+  button:hover,
+  button:active,
+  button:focus,
+  input[type="submit"]:hover,
+  input[type="submit"]:active,
+  input[type="submit"]:focus,
+  input[type="reset"]:hover,
+  input[type="reset"]:active,
+  input[type="reset"]:focus,
+  input[type="button"]:hover,
+  input[type="button"]:active,
+  input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+
 .name-lockup {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .avatar {
@@ -278,6 +329,8 @@ hr {
   height: 80px;
   border-radius: 50%;
   margin-right: 10px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
   flex-shrink: 0; }
 
 .fork-tag {
@@ -304,18 +357,65 @@ hr {
     transform: rotate(8deg); }
   100% {
     transform: rotate(0deg); } }
+.flex-video {
+  height: 0;
+  margin-bottom: 0.88889rem;
+  overflow: hidden;
+  padding-bottom: 56%;
+  position: relative; }
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0; }
+
 body {
-  margin: 10px; }
+  margin: 10px;
+  background-color: #ddd;
+  overflow-x: hidden; }
 
 .page-home {
-  text-align: center;
-  border: 4px solid #ddd;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 40px;
-  position: relative; }
-  .page-home h1 {
-    font-weight: 700;
-    line-height: 1;
-    margin: 20px 0;
-    letter-spacing: 1px; }
+  text-align: center; }
+  .page-home section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); }
+    .page-home section:first-child {
+      background-image: url(../img/tools.png);
+      background-position: center; }
+    .page-home section h1 {
+      font-weight: 700;
+      line-height: 1;
+      margin: 20px 0;
+      letter-spacing: 1px; }
+  .page-home img {
+    max-width: 100%; }
+  .page-home .flex-video-wrap {
+    max-width: 640px;
+    display: inline-block;
+    width: 100%; }
+  .page-home pre {
+    text-align: left;
+    font-family: "Fira Mono", monospace;
+    font-size: 30px;
+    color: #d0d0d0;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: -1;
+    pointer-events: none; }
+    @media (max-width: 500px) {
+      .page-home pre {
+        font-size: 20px; } }
+  .page-home article {
+    margin-bottom: 50px; }
+    .page-home article:last-child {
+      margin-bottom: 0px; }
