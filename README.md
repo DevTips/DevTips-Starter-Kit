@@ -9,6 +9,10 @@ alt="Watch the video on youtube" />
 
 ***
 
+### Jekyll friendly version based on v2
+
+This was forked from [DevTips / DevTips-Starter-Kit](https://github.com/DevTips/DevTips-Starter-Kit)
+
 ### Other Versions
 
 - There is a Jekyll friendly version <a href="https://github.com/DevTips/DevTips-Starter-Kit/tree/Jekyll-Starter-Kit">here.</a> (based on v1)
