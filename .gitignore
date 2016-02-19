@@ -22,6 +22,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
 ### Sass ###
 .sass-cache
+
+### Windows and Linux ###
+prepros.cfg
