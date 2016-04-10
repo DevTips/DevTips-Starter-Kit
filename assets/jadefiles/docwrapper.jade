@@ -1,0 +1,32 @@
+block config
+	include config.jade
+
+doctype
+html( lang="en" )
+	head
+		title
+			block title
+				//- Variable used in text via interpolation
+				| #{PageTitle}
+		
+		meta( charset='utf-8' )
+		meta( http-equiv='X-UA-Compatible', content='IE=edge' )
+		meta( name='viewport', content='width=device-width, initial-scale=1.0' )
+		//- Meta description drawn from config file
+		meta( name='description', content=MetaDesc )
+		
+		//- This will load from Google Fonts, but only if font names are specified in the config
+		if GoogleFonts
+			link( href='//fonts.googleapis.com/css?family=' + GoogleFonts, rel='stylesheet', type='text/css' )
+		
+		block stylesheets
+			link( href='../assets/css/main.css', rel='stylesheet', type='text/css' )
+	
+	body
+		block content
+			
+	//- This will load jQuery, but only if you switch it on in config
+	if jQuery
+		script( src='../assets/js/jquery-2.1.4.min.js' )
+	if functions
+		script( src='../assets/js/functions.js' )
