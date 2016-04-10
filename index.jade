@@ -1,0 +1,13 @@
+extends ./assets/jadefiles/docwrapper.jade
+
+//- Override any config settings by appending to the config block
+append ./assets/jadefiles/config.jade
+	- var PageTitle = 'Dev Tips Starter Kit v2 | Jade Bro!'
+	- var MetaDesc = 'Starter Kit for a Jade templated site'
+	- var jQuery = true
+
+block content
+	//- Variable content blocks
+	include ./assets/jadefiles/header.jade
+	include ./assets/jadefiles/section-name.jade
+	include ./assets/jadefiles/footer.jade
