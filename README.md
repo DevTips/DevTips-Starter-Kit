@@ -1,4 +1,4 @@
-# DevTips-Starter-Kit
+﻿# DevTips-Starter-Kit
 
 Use this as a simple structure for a simple start to a simple site.
 
@@ -9,7 +9,7 @@ alt="Watch the video on youtube" />
 
 ***
 
-### Other Versions
+### Other Versionsx
 
 - There is a Jekyll friendly version <a href="https://github.com/DevTips/DevTips-Starter-Kit/tree/Jekyll-Starter-Kit">here.</a> (based on v1)
 - DevTipster [Maikel José Rivero Dorta](https://github.com/mriverodorta) created a [gulp version](https://github.com/mriverodorta/DevTips-Starter-Kit/tree/Gulp-Starter-Kit), and a [Command Line Interface](https://github.com/mriverodorta/devtips-cli) for this project!! So cool :)
