@@ -419,3 +419,7 @@ body {
     margin-bottom: 50px; }
     .page-home article:last-child {
       margin-bottom: 0px; }
+
+      body{
+    background: lavender;
+      }
